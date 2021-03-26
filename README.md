@@ -9,11 +9,17 @@
 Для добавления новых слов в игру нужно записать их в файл расположенный
 `hangman/data/words.txt`
 
-Запуск игры осуществляется из консоли командой
+Для запуска игры нужно склонировать репозиторий командой
+-
+```
+git clone https://github.com/SavelevSergei/hangman.git
+```
+и выполнить последовательно команды в консоли
 -
 
 ```
-ruby main.rb
+bundle install
+bundle exec ruby main.rb
 ```
 
 [Описание](https://offtimer.ru/games/viselica)
